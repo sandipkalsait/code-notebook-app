@@ -1,11 +1,12 @@
-# Code Notebook with Vite.js + Firebase Backend 
+# Code Notebook - Cloud Notes for Developers
+## [https://code-notebooks.web.app]
 
-This document provides a complete setup guide for converting the digital notebook application from vanilla JavaScript to a modern React application using Vite.js and Firebase backend.
+This document provides a complete setup guide for converting the code notebook application from vanilla JavaScript to a modern React application using Vite.js and Firebase backend.
 
 ## Project Structure
 
 ```
-react-notebook-app/
+code-notebook-app/
 ├── public/
 │   ├── vite.svg
 │   └── index.html
