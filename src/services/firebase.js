@@ -1,5 +1,6 @@
 import { initializeApp } from 'firebase/app'
 import { getDatabase } from 'firebase/database'
+import { getFirestore } from 'firebase/firestore'
 import { getAuth, signInAnonymously, onAuthStateChanged } from 'firebase/auth'
 import { RecaptchaVerifier } from 'firebase/auth'
 
@@ -15,8 +16,12 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig)
 
+
 // Initialize Realtime Database
 export const db = getDatabase(app)
+
+// Initialize Firestore
+export const firestore = getFirestore(app)
 
 // Initialize Auth
 export const auth = getAuth(app)

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useAuth } from './useAuth'
-import { notesService } from '@services/notesService'
+import { notesService } from '@services/notesService2'
 
 export const useNotes = () => {
   const [notes, setNotes] = useState([])
